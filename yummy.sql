@@ -18,6 +18,9 @@ food_type = "vegetarian"
 WHERE
 food_type IS NULL;
 
+--To get name of columns and its data type--
+PRAGMA table_info(yummy_recipes);
+
 
 --Insert values---
 Insert INTO yummy_recipes (recipe_id,recipe_name) VALUES (1,"Mushroom Gravy");
